@@ -1,0 +1,403 @@
+/* Part Select CSS */
+.bg-image{
+    background-image: url('../resources/bg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+.bg-image .navibar{
+    background-image: url('../resources/navbar.webp');
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100vw;
+}
+
+.bg-image .navibar .mainlogo{
+    width: 11.5vw;
+    margin-left: 16vw;
+}
+
+p{
+    font-family: Fredoka One;
+    color: white;
+    text-shadow: 2px 2px rgb(49, 49, 49);
+}
+
+.h3{
+    margin-top: 5px;
+}
+
+.d-flex p{
+    text-align: center;
+    font-size: 5vh;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.bg-image .partbutton{
+    background-color: #c07f5aad;
+    border-radius: 5px;
+    border-style: dashed;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px #774d35ad;
+    transition: transform .2s;
+}
+
+.bg-image .partbutton:hover{
+    transform: scale(1.025);
+}
+
+.bg-image .partbutton p{
+    font-size: 3vh;
+    text-align: center;
+}
+
+.bg-image .partbutton .particon{
+    display: block;
+    margin-top: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* Upload or Realtime CSS */
+.bg-image .imagebutton{
+    background-color: #c07f5aad;
+    border-radius: 5px;
+    border-style: dashed;
+    padding-left: 66px;
+    padding-right: 66px;
+    padding-top: 40px;
+    padding-bottom: 40px; 
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px #774d35ad;
+    transition: transform .2s;
+}
+
+.bg-image .imagebutton p{
+    font-size: 3vh;
+    text-align: center;
+}
+
+.bg-image .imagebutton:hover{
+    transform: scale(1.025);
+}
+
+.bg-image .realtimebutton{
+    background-color: #c07f5aad;
+    border-radius: 5px;
+    border-style: dashed;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px; 
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px #774d35ad;
+    transition: transform .2s;
+}
+
+.bg-image .realtimebutton p{
+    font-size: 3vh;
+    text-align: center;
+}
+
+.bg-image .realtimebutton:hover{
+    transform: scale(1.025);
+}
+
+.bg-image .backbutton{
+    background-color: #c07f5aad;
+    border-radius: 5px;
+    border-style: dashed;
+    padding-left: 126.83px;
+    padding-right: 126.83px;
+    padding-top: 40px;
+    padding-bottom: 40px; 
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px #774d35ad;
+    transition: transform .2s;
+}
+
+.bg-image .backbutton p{
+    font-size: 3vh;
+    text-align: center;
+}
+
+.bg-image .backbutton:hover{
+    transform: scale(1.025);
+}
+
+/* upload page */
+
+.dropzonemiddle{
+    margin: 100px;
+}
+
+.dropzonemiddle img{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.dropzonemiddle p{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropzone-img { /* itsura ng inupload na image*/
+    align-content: center;
+    width: 640px;
+    height: 640px;
+    border: solid rgba(64, 64, 64, 0.15);
+    border-radius: 4px;
+  }
+  
+.prediction {
+    max-width: calc(100vw - 40px);
+    width: 320;
+    height: 320;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0 10px;
+  }
+
+.axiedropzone{
+    box-shadow: 5px 5px #774d35ad;
+    background-color: #c07f5aad;
+    border: dashed;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 670px;
+    height: 670px;
+    max-width: calc(100vw - 40px);
+    max-height: calc(100vw - 40px);
+    cursor: pointer;
+    margin-top: 3vh;
+    margin-left: 19.5vw;
+    align-items: center;
+    transition: transform .2s;
+}
+
+.divpart{
+    margin-top: 3vh;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: #c07f5aad;
+    max-width: 26vw;
+    border: 3px dashed;
+    transition: transform .2s;
+    box-shadow: 5px 5px #774d35ad;
+}
+
+
+.divpart p{
+    font-size: 25px;
+}
+
+.cardcontainer{
+    box-shadow: 5px 5px #774d35ad;
+    margin-top: 10px;
+    background-color: #c07f5aad;
+    border: 3px dashed;
+    width: 26vw;
+    align-content: center;
+    transition: transform .2s;
+}
+
+
+.cardcontainer p{
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.cardcontainer .axiecard{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.previous{
+    margin-top: 10px;
+    background-color: #f74646ad;
+    border: 3px dashed;
+    width: 26vw;
+    align-content: center;
+    transition: transform .2s;
+    box-shadow: 5px 5px #8a2222ad;
+}
+
+.previous:hover{
+    transform: scale(1.025);
+}
+
+.previous p{
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.realtimecanvas{
+    box-shadow: 5px 5px #774d35ad;
+    background-color: #c07f5aad;
+    border: dashed;
+    padding: 10px;
+    max-height: 52.5vh;
+}
+
+.realtimedivpart{
+    box-shadow: 5px 5px #774d35ad;
+    padding-top: 10px;
+    background-color: #c07f5aad;
+    width: 30vw;
+    border: 3px dashed;
+    transition: transform .2s;
+}
+
+.realtimedivpart p{
+    font-size: 25px;
+}
+
+.realtimecardcontainer{
+    box-shadow: 5px 5px #774d35ad;
+    margin-top: 10px;
+    background-color: #c07f5aad;
+    border: 3px dashed;
+    width: 30vw;
+    height: 44vh;
+    align-content: center;
+    transition: transform .2s;
+}
+
+.realtimecardcontainer p{
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.realtimecardcontainer .axiecard{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.realtimeinstruction{
+    margin-top: 10px;
+    padding-left: 5px;
+    background-color: #94f16983;
+    border: 3px dashed;
+    transition: transform .2s;
+    box-shadow: 5px 5px #1029057c;
+}
+
+.realtimeinstruction p{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-size: 23px;
+}
+
+.realtimeprevious{
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #f74646ad;
+    border: 3px dashed;
+    border-color: #7a0e0ead;
+    align-content: center;
+    transition: transform .2s;
+    cursor: pointer;
+    box-shadow: 5px 5px #8a2222ad;
+}
+
+.realtimeprevious:hover{
+    transform: scale(1.025);
+}
+
+.realtimeprevious p{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.detecttitle{
+    font-size: 30px;
+    text-align: center;
+}
+
+.missingpage{
+    display: block;
+    margin-top: 15vh;
+}
+
+.missingbg{
+    background-image: url('../resources/background.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+.missingpagebutton{
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #c07f5aad;
+    border: 3px dashed;
+    align-content: center;
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.missingpagebutton:hover{
+    transform: scale(1.025);
+}
+
+.missingpagebutton p{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    .bg-image .navibar img{
+        width: 11.5vw;
+        margin-left: 16vw;
+        display: none;
+    }
+    .h3{
+        margin-top: 7.5px;
+        margin-left: 50px;
+    }
+}
+  
